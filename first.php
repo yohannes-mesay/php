@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Biography: $biography<br>";
     echo "Gender: $gender<br>";
     echo "Country: $country<br>";
+    $errorMsg = ""; 
     
-$errorMsg = ""; 
 function validateFullName($name) {
     if (empty($name)) {
         return "Full Name is required.";
