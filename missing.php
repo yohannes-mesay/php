@@ -1,4 +1,3 @@
-Example: so
 <?php
 $season=array("summer","winter","spring","autumn");
 
