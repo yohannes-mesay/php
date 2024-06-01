@@ -1,11 +1,6 @@
-<?php
-$season=array("summer","winter","spring","autumn");
-
-
-$seasons=array_reverse($season);
-
-foreach( $seasons as $s )
-{
-echo "$s<br />";
-}
-?>
+<html>
+    <body>
+        <h1>hello world</h1>
+        <?php include "demo.php"; ?>
+    </body>
+</html> 

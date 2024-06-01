@@ -1,4 +1,5 @@
 <?php
-echo "The time is " . date("h:i:sa");
-
+$d1=strtotime("July 04");
+$d2=floor(($d1-time())/60/60/24);
+echo "There are " . $d2 ." days until 4th of July.";
 ?>
